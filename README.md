@@ -1,33 +1,48 @@
-Tic-Tac-Toe Game
+# Tic-Tac-Toe Game
 
-Description
+This is a simple implementation of the classic Tic-Tac-Toe game in Python. You can play it in your terminal/console.
 
-This is a simple text-based implementation of the classic game "Tic-Tac-Toe" written in Python. It allows two players to take turns and play the game in the console.
+## Rules of the Game
 
-Features
+Tic-Tac-Toe is a two-player game where the objective is to get three of your symbols ('X' or 'O') in a row, column, or diagonal on the 3x3 grid.
 
-Two players can take turns to make their moves.
-The game checks for a win or a draw after each move.
-The board is displayed after each move to help players keep track of the game.
+- Player 'X' goes first.
+- Players take turns marking an empty cell on the grid.
+- The first player to get three of their symbols in a row, column, or diagonal wins.
+- If all cells are filled and no player has three in a row, the game is a tie.
 
-How to Play
+## How to Play
 
-Clone this repository to your local machine.
-Open a terminal or command prompt.
-Navigate to the directory where you cloned the repository.
-Run the tic_tac_toe.py script using Python.
+1. Clone this repository to your local machine:
+
+2. Navigate to the project directory:
+
+3. Run the game:
+
+4. Follow the on-screen instructions to make your moves. Enter a number from 1 to 9 to place your symbol in the corresponding cell.
+
+5. Enjoy the game and have fun playing with a friend!
+
+## Features
+
+- Simple command-line interface for easy gameplay.
+- Checks for wins and ties after each move.
+- Alternates between 'X' and 'O' players.
+- Prevents invalid moves and input errors.
+
+## Future Enhancements
+
+Here are some ideas for enhancing the game:
+
+- Implement a graphical user interface (GUI) for a more interactive experience.
+- Add an option to play against a computer AI.
+- Keep track of scores for multiple rounds.
+- Improve error handling and user feedback.
+
+Feel free to fork this repository and make your own improvements!
 
 
-python tic_tac_toe.py
+Enjoy playing Tic-Tac-Toe! If you have any questions or suggestions, please feel free to open an issue or submit a pull request.
 
-Follow the on-screen instructions to play the game. Players will be prompted to enter the row and column where they want to place their symbol (X or O).
 
-Rules
 
-Players take turns to place their symbol on the 3x3 game board.
-The game ends when a player has three of their symbols in a row horizontally, vertically, or diagonally, and that player wins.
-If all cells on the board are filled, and no player has won, the game ends in a draw.
-
-Contributions
-
-Contributions to this project are welcome! If you want to enhance the game or fix any issues, please feel free to fork the repository, make your changes, and submit a pull request.
